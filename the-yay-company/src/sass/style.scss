@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+.active {
+    background-color: white;
+    border-radius: 3px;
+    
+}
+
+.nav-link a {
+    color: black;
+    text-decoration: none;
+    padding: 4px 12px;
+}
