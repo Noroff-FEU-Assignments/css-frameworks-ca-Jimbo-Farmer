@@ -2,8 +2,41 @@
     background-color: white;
     margin: 0;
     color: $colour-secondary;
+    & .container {
+        margin-bottom: 0;
+        padding: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        & div {
+            flex: 1;
+            padding: 1rem 0.75rem;
+            @media (min-width: 768px) {
+                padding: 0 0.75rem;
+            }
+        }
+        & .video {
+            @media (max-width: 768px) {
+                flex: 0 0 100%;
+                text-align: center;
+            }
+        }
+    }
 }
 
 .video i {
-    font-size: 1.5rem;
+    font-size: 30px;
+    &:first-of-type {
+        margin-right: 20px;
+    }
+}
+
+.copyright {
+    text-align: right;
+}
+
+.email {
+    @media (min-width: 768px) {
+        text-align: center;
+    }
 }

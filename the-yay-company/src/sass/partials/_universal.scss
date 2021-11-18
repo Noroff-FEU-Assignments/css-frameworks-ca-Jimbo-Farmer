@@ -2,9 +2,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    @media (max-width: 768px) {
-        background: radial-gradient(#FFF, #E5E5E5);
-    }
+    background: radial-gradient(#FFF, #E5E5E5);  
 }
 
 h1 {
@@ -29,12 +27,3 @@ h1 {
     margin: 10px auto;
 }
 
-.fb-icon {
-    width: 20px;
-    height: 25px;
-}
-
-.twitter-icon {
-    width: 30px;
-    height: 25px;
-}

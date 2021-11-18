@@ -3,14 +3,16 @@ import Container from 'react-bootstrap/Container';
 
 function Footer() {
     return(
-        <Container className="footer-container">
-            <div className="video">
-                <i class="fab fa-vimeo-v"></i>
-                <i class="fab fa-youtube"></i>
-            </div>
-            <div>hello@yay.com</div>
-            <div>Copyright 2020</div>
-        </Container>
+        <div className="footer-container">
+            <Container>
+                <div className="video">
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div className="email">hello@yay.com</div>
+                <div className="copyright">Copyright 2020</div>
+            </Container>
+        </div>
     )
 }
 
