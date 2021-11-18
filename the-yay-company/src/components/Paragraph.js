@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
 
 function Paragraph(props) {
     return(
-        <p>{props.children}</p>
+        <Container>
+            <p className="main-paragraph">{props.children}</p>
+        </Container>
     )
 }
 

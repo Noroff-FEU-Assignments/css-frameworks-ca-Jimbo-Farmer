@@ -1,0 +1,72 @@
+.navbar-light .navbar-brand {
+    font-family: $font-header;
+    font-style: italic;
+    font-weight: 700;
+    color: $colour-primary;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler {
+    border: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-collapse {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 500;
+        background-color: $colour-background;
+        width: 100vw;
+        padding-bottom: 1rem;
+    }
+    .nav-search {
+        padding: 1rem 0.75rem;
+    }
+}
+
+.active {
+    background-color: white;
+    border-radius: 3px;   
+}
+
+
+.nav-link a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 6px 12px;
+    @media (max-width: 768px){
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding-left: 1.5rem;
+    }   
+}
+
+.form-control::placeholder {
+    color: $colour-secondary;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: $colour-primary;
+    border-radius: 0 4px 4px 0;
+    &:hover {
+        color: white;
+        background-color: $colour-secondary;
+    }
+}
+
+.form-control {
+    border-radius: 4px 0 0 4px;
+    border: none;
+    &:focus {
+        box-shadow: none;
+    }
+}

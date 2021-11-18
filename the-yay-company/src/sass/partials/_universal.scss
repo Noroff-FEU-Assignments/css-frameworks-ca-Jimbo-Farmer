@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    @media (max-width: 768px) {
+        background: radial-gradient(#FFF, #E5E5E5);
+    }
+}
+
+h1 {
+    font-family: $font-header;
+    margin: 2rem 0;
+}
+
+.mobile {
+    @media (min-width: 768px){
+        display: none; 
+    }
+}
+
+.not-mobile {
+    display: none;
+    @media (min-width: 768px){
+        display: inherit;
+    }
+}
+
+.container {
+    margin: 10px auto;
+}
+
+.fb-icon {
+    width: 20px;
+    height: 25px;
+}
+
+.twitter-icon {
+    width: 30px;
+    height: 25px;
+}

@@ -1,0 +1,24 @@
+
+.carousel img {
+    min-height: 300px;
+    object-fit: cover;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    opacity: 1;
+    margin: 10px;
+    border-radius: 2px;
+    filter: drop-shadow(0px 3px 6px black) ;
+}
+
+.carousel-indicators .active {
+    background-color: $colour-primary;
+}

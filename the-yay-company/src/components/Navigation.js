@@ -19,7 +19,7 @@ import Contact from '../elements/Contact';
 function Navigation() {
     return(
         <BrowserRouter>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="md">
           <Container>
             <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,8 +29,8 @@ function Navigation() {
                     <Nav.Link><NavLink to="news">News</NavLink></Nav.Link>
                     <Nav.Link><NavLink to="contact">Contact</NavLink></Nav.Link> 
                 </Nav>
-                <Form className="d-flex">
-                    <FormControl type="search" placeholder="Search" className="me-2" aria-label="Search"/>
+                <Form className="d-flex nav-search">
+                    <FormControl type="search" placeholder="Search" className="" aria-label="Search"/>
                     <Button variant="outline-success">Go</Button>
                 </Form>
             </Navbar.Collapse>
