@@ -44,7 +44,12 @@
     }
     & .form-check-label {
         font-size: 18px;
-        padding: 0.5rem 0 0 0.5rem;
+        width: 95%;
+        margin: 0.5rem 0 0 0.5rem;
+        @media (max-width: 768px) {
+            margin-top: 0;
+            
+        }
     }
     & .btn {
         width: 100%;
@@ -58,7 +63,7 @@
 
 // Layout Change
 
-@media (min-width: 990px) {
+@media (min-width: 992px) {
     .contact-wrapper{
         display: flex;
         flex-wrap: wrap;

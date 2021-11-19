@@ -30,21 +30,17 @@ h1 {
 
 
 // 'Stick' footer to bottom of page:
-
 #root, html {
     height: 100%;
 }
-
 .whole-page {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-
 .wrapper {
     flex: 1 0 auto;
 }
-
 .footer-container {
     flex-shrink: 0;
 }
