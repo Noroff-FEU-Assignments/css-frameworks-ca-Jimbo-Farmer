@@ -1,0 +1,20 @@
+.pagination {
+    margin-top: 3rem;
+}
+
+.page-link {
+    color: $colour-primary;
+    border-color: $colour-primary;
+    padding: 0.7rem 1.3rem;
+    &:hover {
+        background-color: lighten($colour-primary, 30%);
+        border-color: $colour-primary;
+        color: black;
+    }
+}
+
+.page-item.active .page-link {
+    color: white;
+    background-color: $colour-primary;
+    border-color: $colour-primary;
+}

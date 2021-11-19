@@ -1,9 +1,15 @@
 import React from 'react'
+import PageHeader from '../components/PageHeader';
+import NewsPagination from '../components/NewsPagination';
+import NewsGrid from '../components/NewsGrid';
 
 function News() {
     return(
         <div>
-            This is news
+            <PageHeader>News</PageHeader>
+            <NewsPagination/>
+            <NewsGrid/>
+            <NewsPagination/>
         </div>
     )
 }

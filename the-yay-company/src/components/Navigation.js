@@ -19,7 +19,7 @@ import Contact from '../elements/Contact';
 function Navigation() {
     return(
         <BrowserRouter>
-        <Navbar bg="light" expand="md">
+        <Navbar expand="md">
           <Container>
             <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
