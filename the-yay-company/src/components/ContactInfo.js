@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 
-
 function ContactInfo() {
     return(
         <Container className="contact-container">
@@ -19,7 +18,8 @@ function ContactInfo() {
                     <td>123 Some Street 
                         <br />Somewhere
                         <br />Some City
-                        <br />10000</td>
+                        <br />10000
+                    </td>
                 </tr>
             </table>
         </Container>

@@ -2,8 +2,6 @@ import React from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 import Container from 'react-bootstrap/Container';
 
-
-
 function NewsPagination() {
     let active = 1;
     let items = [];

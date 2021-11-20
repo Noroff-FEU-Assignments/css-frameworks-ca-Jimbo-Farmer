@@ -2,20 +2,20 @@
     background-color: white;
     margin: 6rem 0 0 0;
     color: $colour-secondary;
-    & .container {
+    .container {
         margin-bottom: 0;
         padding: 1rem 0;
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        & div {
+        div {
             flex: 1;
             padding: 1rem 0.75rem;
             @media (min-width: 768px) {
                 padding: 0 0.75rem;
             }
         }
-        & .video {
+        .video {
             @media (max-width: 768px) {
                 flex: 0 0 100%;
                 text-align: center;

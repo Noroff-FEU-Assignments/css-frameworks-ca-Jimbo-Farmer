@@ -2,11 +2,11 @@
 .contact-details{
     margin-top: 3rem;
     color: $colour-secondary;
-    & td {
+    td {
         vertical-align: top;
     }
 
-    & i {
+    i {
         font-size: 2rem;
         padding: 0 1rem 2rem 1rem;  
     }
@@ -19,30 +19,30 @@
     background-color: #EFEFEF;
     padding: 2rem;
     font-size: 20px;
-    & input {
+    input {
         padding: 0.9rem;
     }
-    & .form-control {
+    .form-control {
         border: none;
     }
-    & .input-group-text {
+    .input-group-text {
         color: white;
         background-color: #C7C7C7;
         @media (max-width: 768px) {
             display: none;
         }   
     }
-    & #basic-url {
+    #basic-url {
         @media (max-width: 768px) {
             border-radius: 4px;
         }
     }
-    & .form-check-input {
+    .form-check-input {
         width: 34px;
         height: 33px;
         background-color: $colour-primary;
     }
-    & .form-check-label {
+    .form-check-label {
         font-size: 18px;
         width: 95%;
         margin: 0.5rem 0 0 0.5rem;
@@ -51,7 +51,7 @@
             
         }
     }
-    & .btn {
+    .btn {
         width: 100%;
         background-color: $colour-secondary;
         border-radius: 4px;

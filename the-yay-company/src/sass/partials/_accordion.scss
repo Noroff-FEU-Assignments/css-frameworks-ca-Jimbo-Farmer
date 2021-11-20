@@ -1,15 +1,15 @@
 .accordion-item:first-of-type {
     border-radius: 10px 10px 0 0;
-    & .accordion-header {
+    .accordion-header {
         border-radius: 10px 10px 0 0;
-        & button {
+        button {
             border-radius: 10px 10px 0 0;
         }
     }
 }
 
 .accordion-header{
-    & button {
+    button {
         color: $colour-primary;
         font-size: 19px;
         &:focus{
@@ -33,7 +33,7 @@
 .accordion-body {
     border-top: 1px solid $colour-primary;
     background: radial-gradient(#FFF, #F5F5F5);
-    & img {
+    img {
         width: 100%;
     }
     &:last-of-type {
@@ -43,7 +43,7 @@
 
 .accordion-item:last-of-type {
     border-radius: 0 0 10px 10px;
-    & .accordion-button.collapsed {
+    .accordion-button.collapsed {
         border-radius: 0 0 10px 10px;
     }
 }

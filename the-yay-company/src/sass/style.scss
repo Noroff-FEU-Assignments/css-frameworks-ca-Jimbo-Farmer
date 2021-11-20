@@ -14,14 +14,13 @@ $theme-colors: (
 ) !default;
 
 $gray-700: $colour-secondary !default;
-
 $font-family-base: 'Lato', sans-serif;
 $headings-color: $colour-primary;
 
 // Import bootstrap with custom variables. 
 @import "~bootstrap/scss/bootstrap";
 
-// Import partials AFTER bootstrap so that they override bootstrap styles. 
+// Import partials. 
 
 @import "./partials/universal";
 @import "./partials/nav";
@@ -30,7 +29,6 @@ $headings-color: $colour-primary;
 @import "./partials/tabs";
 @import "./partials/accordion";
 @import "./partials/paragraph";
-@import "./partials/main-header";
 @import "./partials/pagination";
 @import "./partials/newscard";
 @import "./partials/contact";
